@@ -152,7 +152,7 @@ AZURE_TTS_VOICES = {
     # German (Germany)
     "de-DE": {
         "female": "de-DE-Seraphina:DragonHDLatestNeural",
-        "male": "de-DE-Florian:DragonHDLatestNeural"
+        "male": "de-DE-ConradNeural"
     },
     # Greek (Greece)
     "el-GR": {

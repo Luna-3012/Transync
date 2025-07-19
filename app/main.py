@@ -65,24 +65,13 @@ elif st.session_state["page"] == "result":
     st.subheader("🎬 Final Video")
     st.video(st.session_state["result"]["final_video"])
 
-    # Audio preview option
-    # preview_option = st.radio(
-    #     "Would you like to preview the translated audio?",
-    #     ("No", "Yes"),
-    #     horizontal=True,
-    #     index=0,
-    #     key="audio_preview_radio"
-    # )
-    # if preview_option == "Yes":
-    #     st.audio(st.session_state["result"].get("final_audio", ""))
-
     preview_audio = st.toggle("Preview the translated audio?", value=False)
     if preview_audio:
         st.audio(st.session_state["result"].get("final_audio", ""))
 
     st.markdown(
         '<div style="margin-top: 0.5em; margin-bottom: 1.5em; color: #666; font-size: 1.1em;">'
-        'Transcripts shown below for your reference — <b>copy</b>, or <b>download</b> as needed.'
+        'Transcripts shown below for your reference — <b>download</b> as needed.'
         '</div>',
         unsafe_allow_html=True
     )
@@ -93,20 +82,12 @@ elif st.session_state["page"] == "result":
         st.markdown("<b>Original Transcript</b>", unsafe_allow_html=True)
         original_text = st.session_state["result"].get("original_text", "")
         st.text_area(
-            "Original Text",
+            "",
             original_text,
             height=400,
             key="orig_text_area"
         )
-        st.markdown(f"""
-            <textarea id="orig_hidden" style="position:absolute; left:-1000px;">{original_text}</textarea>
-            <button onclick="
-                navigator.clipboard.writeText(document.getElementById('orig_hidden').value)
-                .then(() => alert('✅ Original transcript copied!'))
-                .catch(err => alert('❌ Copy failed!'));
-            "
-            style="margin-top: 8px; float:right;">📋 Copy</button>
-        """, unsafe_allow_html=True)
+        
         st.download_button(
             label="📥 Download Original Transcript",
             data=original_text,
@@ -117,20 +98,12 @@ elif st.session_state["page"] == "result":
         st.markdown("<b>Translated Transcript</b>", unsafe_allow_html=True)
         translated_text = st.session_state["result"]["translated_text"]
         st.text_area(
-            "Translated Text",
+            "",
             translated_text,
             height=400,
             key="trans_text_area"
         )
-        st.markdown(f"""
-            <textarea id="trans_hidden" style="position:absolute; left:-1000px;">{translated_text}</textarea>
-            <button onclick="
-                navigator.clipboard.writeText(document.getElementById('trans_hidden').value)
-                .then(() => alert('✅ Translated transcript copied!'))
-                .catch(err => alert('❌ Copy failed!'));
-            "
-            style="margin-top: 8px; float:right;">📋 Copy</button>
-        """, unsafe_allow_html=True)
+        
         st.download_button(
             label="📥 Download Translated Transcript",
             data=translated_text,
