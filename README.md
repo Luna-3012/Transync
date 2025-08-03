@@ -38,7 +38,7 @@ This project enables translation of video audio into multiple languages. The too
 
 1. **Clone the repo:**
    ```bash
-   git clone [https://github.com/yourusername/transync.git](https://github.com/Luna-3012/Transync.git)
+   git clone https://github.com/Luna-3012/Transync.git
    cd transync
    ```
 
@@ -78,5 +78,6 @@ Here’s what’s cooking next:
 I’d love to hear your feedback!
 Whether it’s a bug, feature suggestion, or just a “hey, this is cool!” — feel free to open an issue or connect with me directly. 
 Let’s make Transync even better, together!
+
 
 
