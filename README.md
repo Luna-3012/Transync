@@ -8,6 +8,10 @@ This project enables translation of video audio into multiple languages. The too
 4. Converts translated text to speech
 5. Allows download of the translated transcript (`.txt` format)
 
+## 🎥 Demo
+
+Watch the Transync in action: [Demo Video](---)
+
 > 💡 Great for students, educators, content creators, or anyone building multilingual workflows.
 
 ---
@@ -84,6 +88,7 @@ Here’s what’s cooking next:
 I’d love to hear your feedback!
 Whether it’s a bug, feature suggestion, or just a “hey, this is cool!” — feel free to open an issue or connect with me directly. 
 Let’s make Transync even better, together!
+
 
 
 
