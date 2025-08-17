@@ -41,13 +41,19 @@ This project enables translation of video audio into multiple languages. The too
    git clone https://github.com/Luna-3012/Transync.git
    cd transync
    ```
+   
+2. **Create and activate virtual environment:**
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
-2. **Install dependencies:**
+3. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Set your Azure credentials in `.env`:**
+4. **Set your Azure credentials in `.env`:**
    ```env
    AZURE_SPEECH_KEY=your_azure_speech_key
    AZURE_SPEECH_REGION=your_azure_speech_region
@@ -57,7 +63,7 @@ This project enables translation of video audio into multiple languages. The too
    AZURE_TRANSLATOR_ENDPOINT=your_translator_endpoint
    ```
 
-4. **Run the Streamlit app:**
+5. **Run the Streamlit app:**
    ```bash
    streamlit run app/main.py
    ```
@@ -78,6 +84,7 @@ Here’s what’s cooking next:
 I’d love to hear your feedback!
 Whether it’s a bug, feature suggestion, or just a “hey, this is cool!” — feel free to open an issue or connect with me directly. 
 Let’s make Transync even better, together!
+
 
 
 
