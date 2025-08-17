@@ -43,10 +43,10 @@ This project enables translation of video audio into multiple languages. The too
    ```
    
 2. **Create and activate virtual environment:**
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
 3. **Install dependencies:**
    ```bash
@@ -84,6 +84,7 @@ Here’s what’s cooking next:
 I’d love to hear your feedback!
 Whether it’s a bug, feature suggestion, or just a “hey, this is cool!” — feel free to open an issue or connect with me directly. 
 Let’s make Transync even better, together!
+
 
 
 
