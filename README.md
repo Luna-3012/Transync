@@ -10,7 +10,7 @@ This project enables translation of video audio into multiple languages. The too
 
 ## 🎥 Demo
 
-Watch the Transync in action: [Demo Video](---)
+Watch the Transync in action: [Demo Video](https://drive.google.com/file/d/1kneRO7htXBkNkneh1-4b5QldAiWHfb_j/view?usp=sharing)
 
 > 💡 Great for students, educators, content creators, or anyone building multilingual workflows.
 
@@ -88,6 +88,7 @@ Here’s what’s cooking next:
 I’d love to hear your feedback!
 Whether it’s a bug, feature suggestion, or just a “hey, this is cool!” — feel free to open an issue or connect with me directly. 
 Let’s make Transync even better, together!
+
 
 
 
