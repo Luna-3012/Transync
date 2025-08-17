@@ -24,4 +24,3 @@ streamlit
 azure-cognitiveservices-speech
 praat-parselmouth
 python-dotenv
-
